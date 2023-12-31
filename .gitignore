@@ -1,0 +1,6 @@
+node_modules/
+doc/
+.idea
+public/components/*/*.precompiled.js
+dist/
+
