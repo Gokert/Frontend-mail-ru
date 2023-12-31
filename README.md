@@ -36,6 +36,6 @@ Repository of the 'Kinopoisk' project team **Vkladyshi**
 
 [Backend repository](https://github.com/go-park-mail-ru/2023_2_Vkladyshi)
 
-[Deploy](http://84.23.54.189/)
+[Deploy](https://movie-hub.ru/)
 
 [API в Swagger](https://app.swaggerhub.com/apis/ALEKSEJY60/Andrey/1.0.0#)
