@@ -1,0 +1,124 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 100px;
+}
+
+.pencil-image {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.change-user-data__form-warning {
+  display: none;
+}
+
+.settings__img {
+  width: 270px;
+  height: auto;
+
+  margin-left: 5%;
+  margin-right: 5%;
+
+  border-radius: 30px;
+}
+
+.change-user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  width: var(--block-width);
+  background: white;
+}
+
+.change-user-data__header {
+  text-align: left;
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-user-data__form,
+.change-user-data__form-save {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+  margin: 2% auto;
+}
+
+.change-user-data {
+  min-height: 10px;
+}
+
+.change-user-data__form-save {
+  min-width: 300px;
+  min-height: 10px;
+}
+
+.change-user-data__form__file[type='file'] {
+  outline: 0;
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+  width: 0%;
+}
+
+.change-user-data__form__img {
+  height: auto;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+.change-user-data__form__apply {
+  width: 50%;
+}
+
+.check__all_comments {
+  font-size: 26px;
+  padding: 5px 15px;
+  //margin-bottom: 15%;
+  border-radius: 8px;
+  border: 1px solid #cdc6c6;
+  background: rgba(217, 217, 217, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.6s ease;
+}
+
+.check__all_comments:hover {
+  cursor: pointer;
+}
+
+.user-data-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .change-user-data {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

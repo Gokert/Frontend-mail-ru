@@ -1,0 +1,108 @@
+.review {
+  width: var(--block-width);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 50px auto 0;
+  border-radius: 5px;
+  background-color: rgba(59, 179, 59, 0.1);
+}
+
+.comment-header__left__comment-remove {
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.comment-header__right {
+  margin-top: 20px;
+}
+
+.review__header {
+  width: 100%;
+  height: auto;
+
+  margin: 2% 0;
+  border-bottom: 3px black solid;
+  padding: 2% 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review__header__img {
+  height: auto;
+  width: 10%;
+}
+
+.review__header__user-name,
+.review__header__film-name {
+  display: inline;
+  margin: 3%;
+  width: 30%;
+  cursor: pointer;
+}
+
+.review__header__review-data {
+  text-align: end;
+  width: 40%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.review__body {
+  margin: 3% 0;
+}
+
+.comment {
+  margin-bottom: 50px;
+  border-radius: 8px;
+  width: var(--block-width);
+
+  padding: 10px 20px 10px 20px;
+}
+
+.comments__all {
+  margin-top: 20px;
+}
+
+.comment-img_comment-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.comment-header__left {
+  display: flex;
+  align-items: center;
+}
+
+.comment-name {
+  margin: 0;
+}
+
+.comment-img {
+  display: flex;
+  justify-items: center;
+}
+
+.comment-content {
+  margin-top: 20px;
+}
+
+.comment-details {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}

@@ -1,0 +1,48 @@
+<div class='film-selection_film' data-section='{{id}}' draggable='true'>
+  <div
+    class='film-selection_film-poster'
+    style='background-image: url("{{poster}}")'
+  >
+    <div class='film-selection_film-poster'>
+      <div class='film-selection_film_header'>
+        {{#if renderDelete}}
+          <img class='image-cancel' src='/icons/cancel.webp' alt='' />
+        {{else if alreadyAdded}}
+          <img
+            class='image-watchlist orange-watchlist noactive'
+            src='/icons/bookmark2.svg'
+            alt=''
+          />
+          <img
+            class='image-watchlist red-watchlist active'
+            src='/icons/bookmark1.svg'
+            alt=''
+          />
+        {{else}}
+          <img
+            class='image-watchlist orange-watchlist active'
+            src='/icons/bookmark2.svg'
+            alt=''
+          />
+          <img
+            class='image-watchlist red-watchlist noactive'
+            src='/icons/bookmark1.svg'
+            alt=''
+          />
+        {{/if}}
+        {{#if haveRating}}{{else}}
+          <div class='film-rating'>
+            {{#if rating}}
+              {{rating}}
+            {{else}}
+              8
+            {{/if}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  <div class='film-selection_film-information'>
+    <div class='film-selection_film_name'>{{title}}</div>
+  </div>
+</div>
